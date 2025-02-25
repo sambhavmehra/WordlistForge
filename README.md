@@ -146,13 +146,7 @@ Different services have different password patterns worth evaluating:
 ██║███╗██║██║   ██║██╔══██╗██║  ██║██║     ██║╚════██║   ██║   ██╔══╝  ██║   ██║██╔══██╗██║   ██║██╔══╝  
 ╚███╔███╔╝╚██████╔╝██║  ██║██████╔╝███████╗██║███████║   ██║   ██║     ╚██████╔╝██║  ██║╚██████╔╝███████╗
  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝╚══════╝   ╚═╝   ╚═╝      ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝
-                                      SECURITY EDITION
-
-[+] Authorization Documentation:
-[?] Enter authorization document reference: SEC-AUTH-2025-113
-[?] Enter authorization issuer name: John Doe, IT Security Manager
-[?] Enter organization name: Example Corp
-[?] Enter authorized testing period: Feb 25-27, 2025
+                                     
 
 [+] Available Service Categories:
   [1] Social Media Platforms
