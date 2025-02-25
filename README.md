@@ -1,5 +1,6 @@
 # WordlistForge
-Overview
+**Overview**
+
 WordlistForge is an advanced Python-based tool for generating highly customized wordlists based on user information for various social media platforms. The tool uses platform-specific patterns and advanced techniques to increase the accuracy of generated passwords, making it valuable for security professionals, penetration testers, and system administrators.
 
 ⚠️ DISCLAIMER: This tool is intended for EDUCATIONAL PURPOSES ONLY. Only use the generated wordlists on systems you have explicit permission to test. Unauthorized access to computer systems is illegal and unethical.
