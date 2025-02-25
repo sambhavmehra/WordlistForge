@@ -31,7 +31,7 @@ def print_banner():
     
     print("\033[1;36m" + banner + "\033[0m")  # Cyan color for the banner
     print("\033[1;32m" + "  Original by: Sambhav Mehra" + "\033[0m")  # Green color for author
-    print("\033[1;32m" + "  Follow on Instagram: sambhav@7" + "\033[0m")  # Green color for social
+    print("\033[1;32m" + "  Follow on Instagram: sambhav__7__" + "\033[0m")  # Green color for social
     print("\033[1;33m" + "  Enhanced Edition with Platform-Specific Patterns" + "\033[0m")  # Yellow color for enhanced note
     print("\033[1;31m" + "\n  [!] Use for educational purposes only. Be ethical.\n" + "\033[0m")  # Red color for warning
 
