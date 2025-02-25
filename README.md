@@ -82,7 +82,7 @@ WordlistForge has no external dependencies beyond Python's standard library.
 git clone https://github.com/sambhavmehra/WordlistForge.git
 
 # Navigate to the directory
-cd wordlistforge
+cd WordlistForge
 
 # Make the script executable
 chmod +x wordlistforge.py
