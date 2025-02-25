@@ -31,7 +31,7 @@ def print_banner():
     
     print("\033[1;36m" + banner + "\033[0m")  # Cyan color for the banner
     print("\033[1;32m" + "  Original by: Sambhav Mehra" + "\033[0m")  # Green color for author
-    print("\033[1;32m" + "  Follow on Instagram: sambhav__7__" + "\033[0m")  # Green color for social
+    print("\033[1;32m" + "  Follow on Instagram: sambhav@7" + "\033[0m")  # Green color for social
     print("\033[1;33m" + "  Enhanced Edition with Platform-Specific Patterns" + "\033[0m")  # Yellow color for enhanced note
     print("\033[1;31m" + "\n  [!] Use for educational purposes only. Be ethical.\n" + "\033[0m")  # Red color for warning
 
@@ -852,7 +852,7 @@ def collect_user_data() -> Dict:
     return user_data
 
 
-def save_wordlist(wordlist: List[str], platform: str) -> str:
+def save_wordlist(wordlist: List[str], platform: str, custom_name: str = None) -> str:
     """Save the wordlist to a file and return the filename."""
     # Create directory if it doesn't exist
     output_dir = Path("wordlists")
@@ -860,7 +860,10 @@ def save_wordlist(wordlist: List[str], platform: str) -> str:
     
     # Generate filename
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = output_dir / f"{platform.lower().replace('/', '_')}_{timestamp}.txt"
+    if custom_name:
+        filename = output_dir / f"{custom_name}_{timestamp}.txt"
+    else:
+        filename = output_dir / f"{platform.lower().replace('/', '_')}_{timestamp}.txt"
     
     # Write wordlist to file
     with open(filename, "w") as f:
@@ -895,13 +898,19 @@ def main():
             user_data["size_pref"]
         )
         
+        # Display number of words generated
+        word_count = len(wordlist)
+        print(f"\n\033[1;36m[+] Generated {word_count} unique passwords for {user_data['platform']}\033[0m")
+        
+        # Ask user for custom wordlist name
+        custom_name = get_user_input("Enter a custom name for your wordlist (or leave empty for default)", allow_empty=True)
+        
         # Save wordlist
         show_spinner("Saving wordlist", 2)
-        filename = save_wordlist(wordlist, user_data["platform"])
+        filename = save_wordlist(wordlist, user_data["platform"], custom_name)
         
         # Summary
         print(f"\n\033[1;32m[+] Wordlist generation complete!\033[0m")
-        print(f"\033[1;36m[+] Generated {len(wordlist)} unique passwords for {user_data['platform']}\033[0m")
         print(f"\033[1;36m[+] Saved to: {filename}\033[0m")
         
         print("\n\033[1;33m[!] Remember to use this tool ethically and responsibly.\033[0m")
