@@ -79,7 +79,7 @@ WordlistForge has no external dependencies beyond Python's standard library.
 
 ```bash
 # Clone the repository
-https://github.com/sambhavmehra/WordlistForge.git
+git clone https://github.com/sambhavmehra/WordlistForge.git
 
 # Navigate to the directory
 cd wordlistforge
