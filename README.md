@@ -1,53 +1,57 @@
+# WordlistForge
 
-
-
-
-
+```
 ██╗    ██╗ ██████╗ ██████╗ ██████╗ ██╗     ██╗███████╗████████╗███████╗ ██████╗ ██████╗  ██████╗ ███████╗
 ██║    ██║██╔═══██╗██╔══██╗██╔══██╗██║     ██║██╔════╝╚══██╔══╝██╔════╝██╔═══██╗██╔══██╗██╔════╝ ██╔════╝
 ██║ █╗ ██║██║   ██║██████╔╝██║  ██║██║     ██║███████╗   ██║   █████╗  ██║   ██║██████╔╝██║  ███╗█████╗  
 ██║███╗██║██║   ██║██╔══██╗██║  ██║██║     ██║╚════██║   ██║   ██╔══╝  ██║   ██║██╔══██╗██║   ██║██╔══╝  
 ╚███╔███╔╝╚██████╔╝██║  ██║██████╔╝███████╗██║███████║   ██║   ██║     ╚██████╔╝██║  ██║╚██████╔╝███████╗
  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝╚══════╝   ╚═╝   ╚═╝      ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝
-                                      
-```WordlistForge is an advanced wordlist generator specifically designed for creating targeted wordlists for various social media platforms and online services. It uses platform-specific patterns and user information to generate potential passwords.```
-🚨 Disclaimer
-This tool is for educational and ethical security testing purposes only.
+```
 
-Only use this tool on accounts you own or have explicit permission to test
-Unauthorized access to computer systems is illegal and unethical
-The author is not responsible for misuse of this software
+WordlistForge is a security auditing tool designed to help security professionals and system administrators evaluate password policies and test system security through authorized penetration testing.
+
+## 🚨 Important Legal & Ethical Notice
+
+**This tool is strictly for:**
+- Authorized security auditing
+- Penetration testing with explicit written permission
+- Educational purposes in cybersecurity training
+- Testing your own accounts
+
+**Unauthorized use of this tool to access accounts or systems without permission is illegal under computer fraud and cybersecurity laws in most jurisdictions and may result in severe legal penalties.**
 
 ## ✨ Key Features
 
-- **Platform Intelligence**: Implements unique password creation patterns for 15+ major social platforms
-- **Advanced Pattern Recognition**: Analyzes how users typically create passwords on specific platforms
-- **Dynamic Wordlist Generation**: Creates customized wordlists based on personal information and platform habits
-- **Comprehensive Complexity Options**:
-  - Leetspeak transformations (a→4, e→3, etc.)
-  - Special character insertions
-  - Case modifications
-  - Number appendages
-  - Year variations
-  - Complex combinations
+- **Security Audit Framework**: Assists organizations in evaluating password policy effectiveness
+- **Training Platform**: Educates users about password vulnerabilities and best practices
+- **Password Policy Testing**: Helps administrators validate security requirements
+- **Authorization Verification**: Includes mandatory permission documentation steps
+- **Complexity Analysis Options**:
+  - Character substitution patterns (a→4, e→3, etc.)
+  - Special character variations
+  - Case modification testing
+  - Common number patterns
+  - Year combinations
+  - Mixed complexity evaluations
 - **User-Friendly Interface**:
-  - Terminal-based colorful UI
-  - Interactive prompts
-  - Real-time progress indicators
-  - Typing effects and spinners
-- **Performance Optimization**:
-  - Smart filtering algorithms
-  - Duplicate prevention
-  - Wordlist size control
-  - Priority-based password generation
-- **Security-Focused**:
-  - Local processing (no data leaves your system)
-  - No internet connectivity required
-  - Secure file handling
+  - Terminal-based UI
+  - Interactive workflow
+  - Progress tracking
+  - Visual feedback
+- **Optimization Features**:
+  - Intelligent filtering
+  - Redundancy elimination
+  - Resource management
+  - Priority-based generation
+- **Security Features**:
+  - Offline processing
+  - No data transmission
+  - Secure file operations
 
-## 🌐 Supported Platforms
+## 🌐 Supported Services for Security Auditing
 
-| Social Platforms | Gaming Platforms | Professional Platforms |
+| Social Media | Gaming Services | Professional Platforms |
 |------------------|------------------|------------------------|
 | Instagram        | Steam            | LinkedIn               |
 | Facebook         | PlayStation      | GitHub                 |
@@ -69,11 +73,9 @@ The author is not responsible for misuse of this software
 
 ### Dependencies
 
-WordlistForge has no external dependencies beyond Python's standard library, making it easy to deploy anywhere Python runs.
+WordlistForge has no external dependencies beyond Python's standard library.
 
 ### Installation on Linux
-
-#### Method 1: Standard Installation
 
 ```bash
 # Clone the repository
@@ -89,41 +91,53 @@ chmod +x wordlistforge.py
 ./wordlistforge.py
 ```
 
-## 🚀 Usage Guide
+## 🚀 Usage Guide for Authorized Testing
 
-### Basic Usage
+### Documentation Requirements
+
+Before using this tool, ensure you have:
+1. Written authorization from the system owner
+2. Documented scope of testing
+3. Time limitations for testing activities
+4. Emergency contact information
+
+### Basic Operation
 
 1. Start the tool:
    ```bash
    ./wordlistforge.py
    ```
 
-2. Follow the interactive prompts:
+2. Complete the authorization documentation:
+   - Provide details of written permission
+   - Define the scope of testing
+   - Set testing time windows
+
+3. Configure the security evaluation:
    - Select the target platform
-   - Enter known information about the target (with proper authorization)
-   - Configure complexity options
-   - Select wordlist size preference
+   - Input authorized test parameters
+   - Configure complexity settings
+   - Select evaluation depth
 
-3. The tool will generate a customized wordlist saved to the `wordlists/` directory.
+4. The tool will generate a security evaluation list saved to the `wordlists/` directory.
 
-### Advanced Usage
+### Configuration Options
 
-#### Wordlist Sizes
+#### Evaluation Depths
 
-- **Small**: ~1,000 passwords (highly targeted, best for quick tests)
-- **Medium**: ~5,000 passwords (balanced approach, recommended)
-- **Large**: ~10,000 passwords (comprehensive, best for thorough testing)
+- **Minimal**: ~1,000 entries (targeted, quick security checks)
+- **Standard**: ~5,000 entries (balanced security evaluation)
+- **Comprehensive**: ~10,000 entries (thorough security assessment)
 
-#### Platform-Specific Strategies
+#### Service-Specific Considerations
 
-For optimal results, consider platform-specific patterns:
+Different services have different password patterns worth evaluating:
 
-- **Instagram**: Focus on photography-related terms, handles with underscores
-- **Twitter/X**: Short usernames with numbers, concise combinations
-- **Gaming Platforms**: Often include gaming terms, leetspeak, and numbers
-- **Professional Platforms**: Usually more formal, less leetspeak, more full names
+- **Social Media**: Often uses informal patterns, personal references
+- **Gaming Services**: Frequently includes gaming terminology and substitutions
+- **Professional Platforms**: Typically uses more formal construction patterns
 
-### Real-world Example Session
+### Example Security Audit Session
 
 ```
 ██╗    ██╗ ██████╗ ██████╗ ██████╗ ██╗     ██╗███████╗████████╗███████╗ ██████╗ ██████╗  ██████╗ ███████╗
@@ -132,9 +146,23 @@ For optimal results, consider platform-specific patterns:
 ██║███╗██║██║   ██║██╔══██╗██║  ██║██║     ██║╚════██║   ██║   ██╔══╝  ██║   ██║██╔══██╗██║   ██║██╔══╝  
 ╚███╔███╔╝╚██████╔╝██║  ██║██████╔╝███████╗██║███████║   ██║   ██║     ╚██████╔╝██║  ██║╚██████╔╝███████╗
  ╚══╝╚══╝  ╚═════╝ ╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝╚══════╝   ╚═╝   ╚═╝      ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝
-                                      ENHANCED EDITION
+                                      SECURITY EDITION
 
-[+] Available Platforms:
+[+] Authorization Documentation:
+[?] Enter authorization document reference: SEC-AUTH-2025-113
+[?] Enter authorization issuer name: John Doe, IT Security Manager
+[?] Enter organization name: Example Corp
+[?] Enter authorized testing period: Feb 25-27, 2025
+
+[+] Available Service Categories:
+  [1] Social Media Platforms
+  [2] Gaming Services
+  [3] Professional Platforms
+  [...]
+
+[?] Select service category: 1
+
+[+] Select specific service:
   [1] Instagram
   [2] Facebook
   [3] Twitter/X
@@ -142,179 +170,154 @@ For optimal results, consider platform-specific patterns:
   [5] Snapchat
   [...]
 
-[?] Select target platform: 1
+[?] Select target service: 1
 
-[+] Collecting information for Instagram wordlist generation...
-Target username: photosmith
-First name: John
-Last name: Smith
-Pet name (if any): Rex
-Date of birth (DD/MM/YYYY): 15/08/1990
-[...]
+[+] Configuring security evaluation parameters...
+[?] Enter organization username pattern: companyprofile
+[?] Enter company information categories to evaluate:
+   [1] Company name variations
+   [2] Product names
+   [3] Founding date
+   [4] Location information
+   [5] Industry terminology
+[?] Select categories (comma-separated): 1,2,3
 
-[+] Enter important locations (city, country, etc. - one per line, leave empty to finish):
-  > newyork
-  > chicago
+[+] Password Complexity Evaluation Options:
+  [1] Numeric sequences
+  [2] Special characters
+  [3] Case variations
+  [4] Common substitutions
+  [5] Date patterns
+  [6] Complex combinations
 
-[+] Enter additional words (one per line, leave empty to finish):
-  > photography
-  > nature
-  > travel
+[?] Select evaluation criteria (comma-separated): 1,3,4,5
 
-[+] Password Complexity Options:
-  [1] Include numbers (0-9)
-  [2] Include special characters (!@#$%^&*)
-  [3] Include uppercase letters
-  [4] Include common leetspeak substitutions (a→4, e→3, etc.)
-  [5] Include year variations (2020-2025)
-  [6] Include extra-complex combinations
-
-[?] Select options (comma-separated, e.g., 1,3,5): 1,3,4,5
-
-[+] Wordlist Size Preference:
-  [1] Small (fewer, more targeted passwords)
-  [2] Medium (balanced approach)
-  [3] Large (comprehensive, but may include unlikely passwords)
+[+] Evaluation Depth:
+  [1] Minimal (targeted evaluation)
+  [2] Standard (balanced approach)
+  [3] Comprehensive (thorough evaluation)
 
 [?] Select an option: 2
 
-[+] Generating wordlist...
+[+] Generating security evaluation list...
 [■■■■■■■■■■■■■■■■■■■■■■■■■■] 100%
 
-[+] Wordlist generation complete!
-[+] Generated 4,853 unique passwords for Instagram
-[+] Saved to: wordlists/instagram_20250225_123456.txt
+[+] Security evaluation list complete
+[+] Generated 4,853 patterns for security analysis
+[+] Saved to: security_audits/instagram_20250225_123456.txt
 ```
 
-## 📈 Using Generated Wordlists
+## 📈 Security Evaluation Workflow
 
-Once your wordlist is generated, you can use it with popular security testing tools:
+After generating a security evaluation list, integrate it with your authorized security testing:
 
 ```bash
-# With Hydra (SSH example)
-hydra -l username -P wordlists/instagram_20250225_123456.txt ssh://target
+# Example: Authorized security evaluation of internal authentication
+# (Requires proper documentation and authorization)
+hydra -l username -P security_audits/instagram_20250225_123456.txt ssh://target
 
-# With Hashcat (MD5 example)
-hashcat -m 0 -a 0 hash.txt wordlists/instagram_20250225_123456.txt
-
-# With John the Ripper
-john --wordlist=wordlists/instagram_20250225_123456.txt hash.txt
+# Example: Password policy evaluation
+john --wordlist=security_audits/instagram_20250225_123456.txt hash.txt
 ```
 
-## 🛡️ Security Considerations
+## 🛡️ Security & Compliance Considerations
 
-- **Local Processing**: All data processing occurs on your local machine
-- **No Network Activity**: The tool never transmits user information
-- **Safe Storage**: Generated wordlists are stored locally in the `wordlists/` directory
-- **File Security**: Consider using full disk encryption if storing sensitive wordlists
-- **Permissions**: Be cautious about who has access to your generated wordlists
+- **Offline Operation**: All processing remains on your local system
+- **No Data Transmission**: The tool operates without network connectivity
+- **Secure Storage**: Generated files should be stored securely
+- **File Protection**: Consider encryption for sensitive evaluation files
+- **Access Control**: Restrict access to generated files
 
-## 🧠 Understanding How It Works
+## 🧠 Technical Implementation
 
-WordlistForge works by:
+WordlistForge uses:
 
-1. **Information Collection**: Gathering target information through interactive prompts
-2. **Pattern Application**: Applying platform-specific password creation patterns
-3. **Transformation**: Applying various transformations based on selected complexity options
-4. **Filtering**: Removing duplicates and prioritizing likely passwords
-5. **Output**: Generating a text file with the final wordlist
+1. **Parameter Collection**: Gathering authorized test parameters
+2. **Pattern Analysis**: Applying service-specific security patterns
+3. **Complexity Evaluation**: Testing various complexity dimensions
+4. **Pattern Filtering**: Eliminating duplicates and optimizing coverage
+5. **Output Generation**: Creating structured security evaluation files
 
-Each platform module contains specific rules and patterns derived from research on common password creation habits specific to that platform.
+Each service module contains specific patterns relevant to that platform's common security characteristics.
 
-## 🦮 Guides and Best Practices
+## 🦮 Best Practices for Security Professionals
 
-### For Ethical Hackers
+### For Security Auditors
 
-- Always obtain written permission before testing
-- Document your methodology thoroughly
-- Report any vulnerabilities through proper channels
-- Never share passwords or personal information discovered
-- Use the minimum wordlist size necessary for your testing
+- Always maintain proper written authorization
+- Document all testing activities thoroughly
+- Follow responsible disclosure procedures
+- Maintain confidentiality of all findings
+- Use the minimum necessary testing scope
 
 ### For System Administrators
 
-- Use this tool to audit password policies
-- Test password recovery mechanisms
-- Identify weak passwords in your organization
-- Create security awareness training based on findings
-- Implement stricter password policies where necessary
+- Use this tool to evaluate password policies
+- Test authentication system resilience
+- Identify potential security improvements
+- Develop security awareness training
+- Implement strengthened authentication where needed
 
-## 🔄 Common Workflows
+## 🔄 Professional Workflows
 
-1. **Basic Security Audit**:
+1. **Basic Security Verification**:
    ```
-   Generate small wordlist → Test with minimal info → Expand if needed
-   ```
-
-2. **Comprehensive Testing**:
-   ```
-   Generate medium wordlist → Test common accounts → Document findings
+   Document authorization → Generate minimal list → Test → Document findings
    ```
 
-3. **Educational Demonstration**:
+2. **Comprehensive Security Audit**:
    ```
-   Generate wordlist for fictional persona → Show password weaknesses → Discuss improvements
+   Document authorization → Generate standard list → Test critical systems → Document & report
+   ```
+
+3. **Security Training**:
+   ```
+   Create training environment → Demonstrate vulnerabilities → Discuss improvements
    ```
 
 ## 🤝 Contributing
 
-Contributions are welcome and appreciated! Here's how you can contribute:
+Contributions to improve this security tool are welcome:
 
 1. **Fork** the repository
 2. **Create** your feature branch:
    ```bash
-   git checkout -b feature/amazing-feature
+   git checkout -b feature/security-enhancement
    ```
 3. **Commit** your changes:
    ```bash
-   git commit -m 'Add some amazing feature'
+   git commit -m 'Add security enhancement'
    ```
 4. **Push** to the branch:
    ```bash
-   git push origin feature/amazing-feature
+   git push origin feature/security-enhancement
    ```
 5. **Open** a Pull Request
-
-### Development Environment Setup
-
-```bash
-# Clone your fork
-git clone https://github.com/yourusername/wordlistforge.git
-
-# Create a virtual environment
-python -m venv venv
-
-# Activate it
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install development requirements
-pip install -r dev-requirements.txt  # If available
-```
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Original Author
+## 👤 Author
 
 - Sambhav Mehra
 - Instagram: @sambhav__7__
 
 ## 🙏 Acknowledgements
 
-- Special thanks to all ethical hackers and security researchers who contribute to safer online environments
-- Thanks to the Python community for providing excellent libraries and tools
-- Appreciation to all contributors who help improve this tool
+- Thanks to security professionals who promote ethical security practices
+- Appreciation to the cybersecurity community for advancing responsible disclosure
+- Thanks to all contributors who help improve security tools
 
 ## 📬 Contact
 
-For issues, questions, or suggestions:
+For security issues, questions, or suggestions:
 - Create an issue in the GitHub repository
-- Contact the original author through GitHub
+- Contact the author through GitHub
 
 ---
 
 <div align="center">
-  <p>Made with ❤️ for the security community</p>
-  <p>Remember: With great power comes great responsibility</p>
+  <p>Developed for the security community</p>
+  <p>Security through education and authorized testing</p>
 </div>
