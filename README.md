@@ -86,9 +86,6 @@ cd WordlistForge
 
 # Make the script executable
 chmod +x wordlistforge.py
-
-# Run the tool
-./wordlistforge.py
 ```
 
 ## 🚀 Usage Guide for Authorized Testing
@@ -105,7 +102,7 @@ Before using this tool, ensure you have:
 
 1. Start the tool:
    ```bash
-   ./wordlistforge.py
+   python wordlistforge.py
    ```
 
 2. Complete the authorization documentation:
